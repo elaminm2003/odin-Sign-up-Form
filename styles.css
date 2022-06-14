@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100%;
+}
+.content{
+    display: flex;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    background-color: black;
+    width: 40%;
+    height: 100vh;
+    background-image: url(wil-stewart-T26KCgCPsCI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    color: rgb(5, 5, 5);
+    height: 100vh;
+}
+
+.flex-child{
+    margin: 0;
+}
+
+.description {
+    margin: 1rem;
+    color: rgb(192, 192, 6);
+    text-align: left;
+}
+
+.start {
+    display: block;
+}
+
+.form-container {
+    margin-top: 50px;
+    display: flex;
+    background-color: yellow;
+    width: 100%;
+    padding: 15px;
+}
+
+.form-container > div {
+    flex: 50%;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    opacity: 80%;
+    margin: 15px 3px;
+}
