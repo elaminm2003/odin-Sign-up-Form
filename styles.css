@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 body {
@@ -24,10 +26,11 @@ body {
 }
 
 .main {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(2, 2, 2);
     width: 60%;
     color: rgb(5, 5, 5);
     height: 100vh;
+    margin: 0;
 }
 
 .flex-child{
@@ -35,8 +38,11 @@ body {
 }
 
 .description {
-    margin: 1rem;
-    color: rgb(192, 192, 6);
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-bottom: 0;
+    color: rgb(70, 177, 204);
     text-align: left;
 }
 
@@ -45,10 +51,10 @@ body {
 }
 
 .form-container {
-    margin-top: 50px;
-    display: flex;
-    background-color: yellow;
-    width: 100%;
+    margin: 100px auto 50px auto;
+    /*display: flex;*/
+    background-color: rgb(13, 114, 139);
+    width: 90%;
     padding: 15px;
 }
 
@@ -70,4 +76,63 @@ body {
     text-transform: uppercase;
     opacity: 80%;
     margin: 15px 3px;
+    padding-right: 5px;
+    color: white;
+}
+
+.start {
+    display: block;
+    margin: auto;
+    text-align: left;
+    margin-left: 3px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+}
+
+input{
+    max-width: 270px;
+    border: 1px solid;
+    border-radius: 3px;
+    height: 2.5vh;
+}
+
+.submit{
+    width: 25%;
+    margin-left: 25px;
+    height: 5vh;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: rgb(70, 177, 204);
+    background-color: black;
+    color: rgb(70, 177, 204);
+}
+
+.submit:hover{
+    background-color: rgb(70, 177, 204);
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.login{
+    color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+    color: rgb(70, 177, 204);
+}
+
+.title-container {
+    background-color: white;
+    margin: 200px 0;
+    background-color: rgba(5, 5, 5, 0.5);
+    width: 100%;
+    padding: 15px;
+}
+
+.title{
+    color: white;
+    text-align: center;
 }
